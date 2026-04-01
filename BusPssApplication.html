@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TSRTC Application Form</title>
+</head>
+<body>
+    <table width="850" align="center">
+        <tr>
+            <td>
+                <form action="./Submit.html" method="post">
+                    <center>
+                        <img src="./bus.jpg" alt="TSRTC Logo" width="200" height="100"><br><br>
+                        <h3>TELANGANA STATE ROAD TRANSPORT CORPORATION</h3>
+                        <h3>GENERAL BUS PASS APPLICATION</h3>
+                    </center>
+
+                    <fieldset>
+                        <legend>Applicant Details</legend>
+                        <table>
+                            <tr>
+                                <td>Name *</td>
+                                <td><input type="text" maxlength="20" placeholder="Enter Name"></td>
+                                <td>Father's / Guardian's Name *</td>
+                                <td><input type="text" placeholder="Enter Father's/Guardian's Name"></td>
+                            </tr>
+                            <tr>
+                                <td>Date of birth *</td>
+                                <td><input type="date"></td>
+                                <td>Gender *</td>
+                                <td>
+                                    <input type="radio" id="female" name="gender" value="female"> Female
+                                    <input type="radio" id="male" name="gender" value="male"> Male
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Age As on</td>
+                                <td><input type="text" placeholder="Age"></td>
+                                <td>Aadhaar No:</td>
+                                <td><input type="text" placeholder="Enter Aadhaar Number"></td>
+                            </tr>
+                            <tr>
+                                <td>WhatsApp No *</td>
+                                <td><input type="tel" placeholder="10-digit mobile number"></td>
+                                <td>E-mail Id *</td>
+                                <td><input type="email" placeholder="example@email.com"></td>
+                            </tr>
+                            <tr>
+                                <td>Photo *</td>
+                                <td><input type="file" title="Photo"></td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                    <br>
+
+                    <fieldset>
+                        <legend>Residential Address Details</legend>
+                        <table width="70%">
+                            <tr>
+                                <td>Applicant's Address *</td>
+                                <td><textarea rows="3" cols="20" placeholder="Enter your address"></textarea></td>
+                                <td>District *</td>
+                                <td>
+                                    <select title="District">
+                                        <option value="">----Select----</option>
+                                        <option value="hyderabad">HYDERABAD</option>
+                                        <option value="Warangal">WARANGAL</option>
+                                        <option value="karimnagar">KARIMNAGAR</option>
+                                        <option value="khammam">KHAMMAM</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Mandal *</td>
+                                <td>
+                                    <select title="Mandal">
+                                        <option value="">----Select----</option>
+                                        <option value="hyderabad">HYDERABAD</option>
+                                        <option value="Warangal">WARANGAL</option>
+                                        <option value="Hanamakonda">HANAMAKONDA</option>
+                                    </select>
+                                </td>
+                                <td>Village *</td>
+                                <td>
+                                    <select title="Village">
+                                        <option value="">----Select----</option>
+                                        <option value="hyderabad">HYDERABAD</option>
+                                        <option value="Warangal">WARANGAL</option>
+                                        <option value="Hanamakonda">HANAMAKONDA</option>
+                                        <option value="kazipet">KAZIPET</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Pincode *</td>
+                                <td><input type="text" placeholder="Enter Pincode"></td>
+                            </tr>
+                        </table>
+                    </fieldset>
+
+                    <br>
+
+                    <fieldset>
+                        <legend>Pass Type Details</legend>
+                        <table>
+                            <tr>
+                                <td>City *</td>
+                                <td>
+                                    <select title="City">
+                                        <option value="">----Select----</option>
+                                        <option value="hyderabad">Hyderabad</option>
+                                        <option value="Warangal">WARANGAL</option>
+                                        <option value="Hanamakonda">HANAMAKONDA</option>
+                                        <option value="kazipet">KAZIPET</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Pass Type *</td>
+                                <td>
+                                    <select title="Pass Type">
+                                        <option value="">----Select----</option>
+                                        <option value="general">General Monthly Ticket</option>
+                                        <option value="student">Student Pass</option>
+                                        <option value="employee">Employee Pass</option>
+                                    </select>
+                                </td>
+                            </tr>
+                        </table>
+                    </fieldset>
+
+                    <br>
+
+                    <fieldset>
+                        <legend>Mode of Payment & Pass Collection</legend>
+                        <table >
+                            <tr>
+                                <td>Payment Mode *</td>
+                                <td>
+                                    <select title="Payment Mode">
+                                        <option value="">Select Payment Mode</option>
+                                        <option value="online">Online Payment</option>
+                                        <option value="offline">Offline Payment</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Pass Delivery Mode *</td>
+                                <td>
+                                    <select title="Delivery Mode">
+                                        <option value="">Select Pass Delivery Mode</option>
+                                        <option value="counter">At RTC Counter</option>
+                                        <option value="post">By Post</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Center at which you want to Collect Pass *</td>
+                                <td>
+                                    <select title="Collection Center">
+                                        <option value="">----Select----</option>
+                                        <option value="hyderabad">Bus Depo HYD</option>
+                                        <option value="Warangal">Bus Depo WGL</option>
+                                    </select>
+                                </td>
+                            </tr>
+                        </table>
+                    </fieldset>
+
+                    <br>
+
+                    <center>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAqD7xvkayl_hCJFCF-sa6To8w_6D-KXnWlA&s" alt="captcha" width="200" height="100"><br><br>
+                        <input type="text" placeholder="Enter Captcha"><br><br>
+                        <a href="./Submit.html"><button type="submit">Submit</button></a>
+                    </center>
+                </form>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
+
+           
